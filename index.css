@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    text-align: center;
+    border: 10px solid white; /* White border */
+    border-radius: 10px; /* Border radius */
+}
+
+#main {
+    width: 100%; /* Use 100% width to cover the entire viewport */
+    padding: 20px;
+    background: #6943FF;
+     border-radius: 10px; /* Border radius */
+    
+}
+
+#paragraph {
+    height: 38px;
+    color: white;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 38px; /* 135.714% */
+    letter-spacing: -0.84px;
+    margin-bottom: 20px; /* Add some margin at the bottom */
+}
+#name{
+    color: white;
+}
+
+#input {
+    width: 71px;
+    height: 71px;
+    color: white;
+    border: 5px solid white;
+    background: #6943FF;
+    font-family: Inter;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24.393px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Adjust margin */
+    text-align: center;
+}
+
+#convert-btn {
+    width: 171px;
+    height: 71px;
+    color: white;
+    background: #6943FF;
+    border: 5px solid white;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px; /* Adjust margin */
+}
+
+.section {
+    display: flex;
+    flex-direction: column; /* Display vertically */
+    align-items: center; /* Center items horizontally */
+    margin-top: 20px;
+    background: #f5f5f5; /* Grey background color */
+    padding-top: 20px;
+    border-radius: 10px;
+    
+}
+
+.section div {
+    width: 80%; /* Adjust width */
+    padding: 20px;
+    background: white; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add margin between sections */
+}
+
+.section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.section p {
+    font-size: 16px;
+}
